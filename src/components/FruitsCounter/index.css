@@ -1,0 +1,53 @@
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fruits-container {
+  background-color: white;
+  height: 90vh;
+  width: 100vh;
+  padding-top: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.fruit-img {
+  height: 180px;
+  width: 200px;
+  margin: 20px;
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+.heading {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.count {
+  color: #ffd569;
+  font-size: 30px;
+  font-weight: bold;
+}
+.eat-fruit {
+  height: 30px;
+  width: 90px;
+  border-width: 0px;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 7px;
+  margin: 20px;
+}
